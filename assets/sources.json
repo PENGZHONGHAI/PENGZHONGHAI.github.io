@@ -1,252 +1,701 @@
-[
-  {
-    "id": 1,
-    "file": "assets/egypt/frame-01.webp",
-    "original": "https://static.wixstatic.com/media/a98178_b368811b2a5548b5888f51ed4c39360d~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 0,
-    "bottom": 0,
-    "source": "https://static.wixstatic.com/media/a98178_b368811b2a5548b5888f51ed4c39360d~mv2.jpg"
-  },
-  {
-    "id": 2,
-    "file": "assets/egypt/frame-02.webp",
-    "original": "https://static.wixstatic.com/media/a98178_8e454ee50d7e4012a9de307aeb613f22~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 0,
-    "bottom": 0,
-    "source": "https://static.wixstatic.com/media/a98178_8e454ee50d7e4012a9de307aeb613f22~mv2.jpg"
-  },
-  {
-    "id": 3,
-    "file": "assets/egypt/frame-03.webp",
-    "original": "https://static.wixstatic.com/media/a98178_e2f2a59c62b14c02b0cf82f4a1615a59~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_e2f2a59c62b14c02b0cf82f4a1615a59~mv2.jpg"
-  },
-  {
-    "id": 4,
-    "file": "assets/egypt/frame-04.webp",
-    "original": "https://static.wixstatic.com/media/a98178_ed0d92e7d64d4a368f4462ebf6b2dfc6~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_ed0d92e7d64d4a368f4462ebf6b2dfc6~mv2.jpg"
-  },
-  {
-    "id": 5,
-    "file": "assets/egypt/frame-05.webp",
-    "original": "https://static.wixstatic.com/media/a98178_344b6fd08edb424e9878140083f1c0d2~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_344b6fd08edb424e9878140083f1c0d2~mv2.jpg"
-  },
-  {
-    "id": 6,
-    "file": "assets/egypt/frame-06.webp",
-    "original": "https://static.wixstatic.com/media/a98178_3cd6ee78a31c4145a145802e0e8903ad~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_3cd6ee78a31c4145a145802e0e8903ad~mv2.jpg"
-  },
-  {
-    "id": 7,
-    "file": "assets/egypt/frame-07.webp",
-    "original": "https://static.wixstatic.com/media/a98178_174742ad1ad741ebabdbd3e724e9cd56~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_174742ad1ad741ebabdbd3e724e9cd56~mv2.jpg"
-  },
-  {
-    "id": 8,
-    "file": "assets/egypt/frame-08.webp",
-    "original": "https://static.wixstatic.com/media/a98178_7df8b48431b84a2294c087b776015688~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_7df8b48431b84a2294c087b776015688~mv2.jpg"
-  },
-  {
-    "id": 9,
-    "file": "assets/egypt/frame-09.webp",
-    "original": "https://static.wixstatic.com/media/a98178_b17fbac684c34c2c991649faeea9da3b~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_b17fbac684c34c2c991649faeea9da3b~mv2.jpg"
-  },
-  {
-    "id": 10,
-    "file": "assets/egypt/frame-10.webp",
-    "original": "https://static.wixstatic.com/media/a98178_1e67b73f686f4a5cb7628b930f8b85a0~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_1e67b73f686f4a5cb7628b930f8b85a0~mv2.jpg"
-  },
-  {
-    "id": 11,
-    "file": "assets/egypt/frame-11.webp",
-    "original": "https://static.wixstatic.com/media/a98178_0a3b4aba32b648359da578cf38885f07~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_0a3b4aba32b648359da578cf38885f07~mv2.jpg"
-  },
-  {
-    "id": 12,
-    "file": "assets/egypt/frame-12.webp",
-    "original": "https://static.wixstatic.com/media/a98178_d3cbc355cac4464aa992b8f0148c8435~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_d3cbc355cac4464aa992b8f0148c8435~mv2.jpg"
-  },
-  {
-    "id": 13,
-    "file": "assets/egypt/frame-13.webp",
-    "original": "https://static.wixstatic.com/media/a98178_f158f7919e5643eb8b45020ab37034b2~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_f158f7919e5643eb8b45020ab37034b2~mv2.jpg"
-  },
-  {
-    "id": 14,
-    "file": "assets/egypt/frame-14.webp",
-    "original": "https://static.wixstatic.com/media/a98178_00854c9e97de42e99bcc638ffeff6716~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_00854c9e97de42e99bcc638ffeff6716~mv2.jpg"
-  },
-  {
-    "id": 15,
-    "file": "assets/egypt/frame-15.webp",
-    "original": "https://static.wixstatic.com/media/a98178_755abd1ef001454cb1ca13c5e4cb8068~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_755abd1ef001454cb1ca13c5e4cb8068~mv2.jpg"
-  },
-  {
-    "id": 16,
-    "file": "assets/egypt/frame-16.webp",
-    "original": "https://static.wixstatic.com/media/a98178_ba3f25c911114a5fa649fc078efc7e26~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_ba3f25c911114a5fa649fc078efc7e26~mv2.jpg"
-  },
-  {
-    "id": 17,
-    "file": "assets/egypt/frame-17.webp",
-    "original": "https://static.wixstatic.com/media/a98178_b272a15b882d45e6830ae1ff1c738d78~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_b272a15b882d45e6830ae1ff1c738d78~mv2.jpg"
-  },
-  {
-    "id": 18,
-    "file": "assets/egypt/frame-18.webp",
-    "original": "https://static.wixstatic.com/media/a98178_1a8492df82154c9995a762beed06cd74~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_1a8492df82154c9995a762beed06cd74~mv2.jpg"
-  },
-  {
-    "id": 19,
-    "file": "assets/egypt/frame-19.webp",
-    "original": "https://static.wixstatic.com/media/a98178_be0e422f5ac34e559d630e1afc552564~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_be0e422f5ac34e559d630e1afc552564~mv2.jpg"
-  },
-  {
-    "id": 20,
-    "file": "assets/egypt/frame-20.webp",
-    "original": "https://static.wixstatic.com/media/a98178_a18182f0057e40b69bd4e8889a4157ac~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_a18182f0057e40b69bd4e8889a4157ac~mv2.jpg"
-  },
-  {
-    "id": 21,
-    "file": "assets/egypt/frame-21.webp",
-    "original": "https://static.wixstatic.com/media/a98178_fd5df0816b974c8e9e8a9ef12a5e1d57~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_fd5df0816b974c8e9e8a9ef12a5e1d57~mv2.jpg"
-  },
-  {
-    "id": 22,
-    "file": "assets/egypt/frame-22.webp",
-    "original": "https://static.wixstatic.com/media/a98178_1b505d222ae24e90a82651c2122682e0~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_1b505d222ae24e90a82651c2122682e0~mv2.jpg"
-  },
-  {
-    "id": 23,
-    "file": "assets/egypt/frame-23.webp",
-    "original": "https://static.wixstatic.com/media/a98178_b49308c3917040b9945f2f585b451586~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_b49308c3917040b9945f2f585b451586~mv2.jpg"
-  },
-  {
-    "id": 24,
-    "file": "assets/egypt/frame-24.webp",
-    "original": "https://static.wixstatic.com/media/a98178_0f056c53fe704aa1a9b3138baffac23d~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 3,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_0f056c53fe704aa1a9b3138baffac23d~mv2.jpg"
-  },
-  {
-    "id": 25,
-    "file": "assets/egypt/frame-25.webp",
-    "original": "https://static.wixstatic.com/media/a98178_9ecc96b6535c432096925a7f3c2d1d94~mv2.jpg",
-    "width": 2880,
-    "height": 1226,
-    "top": 2,
-    "bottom": 2,
-    "source": "https://static.wixstatic.com/media/a98178_9ecc96b6535c432096925a7f3c2d1d94~mv2.jpg"
+{
+  "source": "ポートフォリオ_彭衆海.key",
+  "assets": {
+    "223": {
+      "src": "assets/portfolio/work-223.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.18.05-9961.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        101,
+        2400,
+        1299
+      ]
+    },
+    "218": {
+      "src": "assets/portfolio/work-218.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.17.50-9960.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        100,
+        2400,
+        1300
+      ]
+    },
+    "217": {
+      "src": "assets/portfolio/work-217.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.17.38-9959.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        100,
+        2400,
+        1300
+      ]
+    },
+    "225": {
+      "src": "assets/portfolio/work-225.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.18.24-9962.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        101,
+        2400,
+        1299
+      ]
+    },
+    "227": {
+      "src": "assets/portfolio/work-227.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.19.52-9972.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        100,
+        2400,
+        1300
+      ]
+    },
+    "229": {
+      "src": "assets/portfolio/work-229.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.20.09-9973.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        100,
+        2400,
+        1300
+      ]
+    },
+    "27": {
+      "src": "assets/portfolio/work-027.webp",
+      "source": "172211668390691_.pic_hd-9435.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "9": {
+      "src": "assets/portfolio/work-009.webp",
+      "source": "172051668390636_.pic-9447.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "11": {
+      "src": "assets/portfolio/work-011.webp",
+      "source": "172061668390637_.pic-9450.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "13": {
+      "src": "assets/portfolio/work-013.webp",
+      "source": "172071668390647_.pic_hd-9453.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "15": {
+      "src": "assets/portfolio/work-015.webp",
+      "source": "172081668390648_.pic-9479.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "17": {
+      "src": "assets/portfolio/work-017.webp",
+      "source": "172091668390649_.pic-9482.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "19": {
+      "src": "assets/portfolio/work-019.webp",
+      "source": "172101668390650_.pic-9504.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "21": {
+      "src": "assets/portfolio/work-021.webp",
+      "source": "172121668390652_.pic-9507.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "23": {
+      "src": "assets/portfolio/work-023.webp",
+      "source": "172131668390660_.pic_hd-9517.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "25": {
+      "src": "assets/portfolio/work-025.webp",
+      "source": "172151668390663_.pic-9520.jpg",
+      "width": 2400,
+      "height": 1107,
+      "crop": [
+        215,
+        61,
+        1969,
+        985
+      ]
+    },
+    "113": {
+      "src": "assets/portfolio/work-113.webp",
+      "source": "pasted-image-9548.png",
+      "width": 1440,
+      "height": 1080,
+      "crop": [
+        0,
+        0,
+        1440,
+        1080
+      ]
+    },
+    "114": {
+      "src": "assets/portfolio/work-114.webp",
+      "source": "pasted-image-9551.png",
+      "width": 1080,
+      "height": 1440,
+      "crop": [
+        0,
+        0,
+        1080,
+        1440
+      ]
+    },
+    "115": {
+      "src": "assets/portfolio/work-115.webp",
+      "source": "pasted-image-9554.png",
+      "width": 1440,
+      "height": 1080,
+      "crop": [
+        0,
+        0,
+        1440,
+        1080
+      ]
+    },
+    "70": {
+      "src": "assets/portfolio/work-070.webp",
+      "source": "IMG_1972 2-9247.PNG",
+      "width": 2400,
+      "height": 1350,
+      "crop": [
+        0,
+        0,
+        2400,
+        1350
+      ]
+    },
+    "4": {
+      "src": "assets/portfolio/work-004.webp",
+      "source": "1-9302.PNG",
+      "width": 2400,
+      "height": 1350,
+      "crop": [
+        0,
+        0,
+        2400,
+        1350
+      ]
+    },
+    "39": {
+      "src": "assets/portfolio/work-039.webp",
+      "source": "3-9305.PNG",
+      "width": 2400,
+      "height": 1350,
+      "crop": [
+        0,
+        0,
+        2400,
+        1350
+      ]
+    },
+    "48": {
+      "src": "assets/portfolio/work-048.webp",
+      "source": "4-9341.PNG",
+      "width": 2400,
+      "height": 1350,
+      "crop": [
+        0,
+        0,
+        2400,
+        1350
+      ]
+    },
+    "50": {
+      "src": "assets/portfolio/work-050.webp",
+      "source": "5-9344.PNG",
+      "width": 2400,
+      "height": 1350,
+      "crop": [
+        0,
+        0,
+        2400,
+        1350
+      ]
+    },
+    "185": {
+      "src": "assets/portfolio/work-185.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.11.38-9912.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        100,
+        2400,
+        1300
+      ]
+    },
+    "187": {
+      "src": "assets/portfolio/work-187.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.11.51-9913.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        100,
+        2400,
+        1300
+      ]
+    },
+    "191": {
+      "src": "assets/portfolio/work-191.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.12.13-9918.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        100,
+        2400,
+        1300
+      ]
+    },
+    "193": {
+      "src": "assets/portfolio/work-193.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.12.49-9923.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        100,
+        2400,
+        1300
+      ]
+    },
+    "196": {
+      "src": "assets/portfolio/work-196.webp",
+      "source": "πé╣πé»πâ¬πâ╝πâ│πé╖πâºπââπâê 2022-11-15 23.13.08-9924.png",
+      "width": 2400,
+      "height": 1500,
+      "crop": [
+        0,
+        101,
+        2400,
+        1298
+      ]
+    },
+    "62": {
+      "src": "assets/portfolio/work-062.webp",
+      "source": "D756FBFE-F168-45A7-A9AB-1CAFA21A8565-9695.jpg",
+      "width": 2048,
+      "height": 1540,
+      "crop": [
+        0,
+        0,
+        2048,
+        1540
+      ]
+    },
+    "64": {
+      "src": "assets/portfolio/work-064.webp",
+      "source": "D978B386-44CC-4DAE-8471-8060E663CDB1-9697.jpg",
+      "width": 2048,
+      "height": 1541,
+      "crop": [
+        0,
+        0,
+        2048,
+        1541
+      ]
+    },
+    "68": {
+      "src": "assets/portfolio/work-068.webp",
+      "source": "FFFC103C-A8CA-4EAD-BDDA-55D5B63BB6D5-9696.jpg",
+      "width": 2048,
+      "height": 1540,
+      "crop": [
+        0,
+        0,
+        2048,
+        1540
+      ]
+    },
+    "30": {
+      "src": "assets/portfolio/work-030.webp",
+      "source": "20220725-DSC00018-9758.jpg",
+      "width": 2048,
+      "height": 1152,
+      "crop": [
+        0,
+        0,
+        2048,
+        1152
+      ]
+    },
+    "34": {
+      "src": "assets/portfolio/work-034.webp",
+      "source": "20220725-DSC00047-9760.jpg",
+      "width": 2048,
+      "height": 1152,
+      "crop": [
+        0,
+        0,
+        2048,
+        1152
+      ]
+    },
+    "32": {
+      "src": "assets/portfolio/work-032.webp",
+      "source": "20220725-DSC00036-9759.jpg",
+      "width": 2048,
+      "height": 1152,
+      "crop": [
+        0,
+        0,
+        2048,
+        1152
+      ]
+    },
+    "58": {
+      "src": "assets/portfolio/work-058.webp",
+      "source": "AAEB1139-9955-44D2-8C16-E4362DCE389A-11044.jpg",
+      "width": 2048,
+      "height": 1356,
+      "crop": [
+        0,
+        0,
+        2048,
+        1356
+      ]
+    },
+    "46": {
+      "src": "assets/portfolio/work-046.webp",
+      "source": "3ABAA70A-A5C2-44C4-B10F-692EA90C85B9-11042.jpg",
+      "width": 2048,
+      "height": 1594,
+      "crop": [
+        0,
+        0,
+        2048,
+        1594
+      ]
+    },
+    "28": {
+      "src": "assets/portfolio/work-028.webp",
+      "source": "1B711DCA-DC56-4823-B96D-246B6E43E5A7-11078.jpg",
+      "width": 1538,
+      "height": 2048,
+      "crop": [
+        0,
+        0,
+        1538,
+        2048
+      ]
+    },
+    "72": {
+      "src": "assets/portfolio/work-072.webp",
+      "source": "IMG_8792 2-10588.JPG",
+      "width": 1366,
+      "height": 2048,
+      "crop": [
+        0,
+        0,
+        1366,
+        2048
+      ]
+    },
+    "60": {
+      "src": "assets/portfolio/work-060.webp",
+      "source": "D3963890-18BE-4787-9867-15D3761EA7C6-10591.jpg",
+      "width": 2048,
+      "height": 1634,
+      "crop": [
+        0,
+        0,
+        2048,
+        1634
+      ]
+    },
+    "78": {
+      "src": "assets/portfolio/work-078.webp",
+      "source": "_DSC6284-9780.jpg",
+      "width": 2048,
+      "height": 1152,
+      "crop": [
+        0,
+        0,
+        2048,
+        1152
+      ]
+    },
+    "80": {
+      "src": "assets/portfolio/work-080.webp",
+      "source": "_DSC6292-9781.jpg",
+      "width": 2048,
+      "height": 1152,
+      "crop": [
+        0,
+        0,
+        2048,
+        1152
+      ]
+    },
+    "84": {
+      "src": "assets/portfolio/work-084.webp",
+      "source": "_DSC8285-10597.jpg",
+      "width": 1152,
+      "height": 2048,
+      "crop": [
+        0,
+        0,
+        1152,
+        2048
+      ]
+    },
+    "2": {
+      "src": "assets/portfolio/work-002.webp",
+      "source": "0A6EC476-C636-416A-A3CE-DAD35E32EC87-9734.jpg",
+      "width": 2048,
+      "height": 2046,
+      "crop": [
+        0,
+        0,
+        2048,
+        2046
+      ]
+    },
+    "66": {
+      "src": "assets/portfolio/work-066.webp",
+      "source": "FED8FED3-BAE0-4CAD-A097-A4FF1E551829-9765.jpg",
+      "width": 2048,
+      "height": 1356,
+      "crop": [
+        0,
+        0,
+        2048,
+        1356
+      ]
+    },
+    "42": {
+      "src": "assets/portfolio/work-042.webp",
+      "source": "32C0C382-022F-4257-BE5E-9A9648523ECB-9736.jpg",
+      "width": 2048,
+      "height": 1356,
+      "crop": [
+        0,
+        0,
+        2048,
+        1356
+      ]
+    },
+    "44": {
+      "src": "assets/portfolio/work-044.webp",
+      "source": "33D064D6-4D83-4C40-BAD3-D96BA716F2B4-9737.jpg",
+      "width": 2048,
+      "height": 1356,
+      "crop": [
+        0,
+        0,
+        2048,
+        1356
+      ]
+    },
+    "36": {
+      "src": "assets/portfolio/work-036.webp",
+      "source": "20221101-IMG_8360-10594.jpg",
+      "width": 2048,
+      "height": 1422,
+      "crop": [
+        0,
+        0,
+        2048,
+        1422
+      ]
+    },
+    "6": {
+      "src": "assets/portfolio/work-006.webp",
+      "source": "14-6-10582.jpg",
+      "width": 2048,
+      "height": 1152,
+      "crop": [
+        0,
+        0,
+        2048,
+        1152
+      ]
+    },
+    "82": {
+      "src": "assets/portfolio/work-082.webp",
+      "source": "_DSC6993-10902.jpg",
+      "width": 2048,
+      "height": 1152,
+      "crop": [
+        0,
+        0,
+        2048,
+        1152
+      ]
+    },
+    "86": {
+      "src": "assets/portfolio/work-086.webp",
+      "source": "_DSC8436-10912.jpg",
+      "width": 2048,
+      "height": 1152,
+      "crop": [
+        0,
+        0,
+        2048,
+        1152
+      ]
+    },
+    "0": {
+      "src": "assets/portfolio/work-000.webp",
+      "source": "071613D1-E432-4488-B893-C6D83D5C7201-10917.jpg",
+      "width": 1654,
+      "height": 2048,
+      "crop": [
+        0,
+        0,
+        1654,
+        2048
+      ]
+    },
+    "109": {
+      "src": "assets/portfolio/work-109.webp",
+      "source": "pasted-image-11317.png",
+      "width": 1068,
+      "height": 608,
+      "crop": [
+        0,
+        0,
+        1068,
+        608
+      ]
+    },
+    "110": {
+      "src": "assets/portfolio/work-110.webp",
+      "source": "pasted-image-11322.png",
+      "width": 1060,
+      "height": 602,
+      "crop": [
+        0,
+        0,
+        1060,
+        602
+      ]
+    },
+    "108": {
+      "src": "assets/portfolio/work-108.webp",
+      "source": "pasted-image-11121.png",
+      "width": 1582,
+      "height": 890,
+      "crop": [
+        0,
+        0,
+        1582,
+        890
+      ]
+    },
+    "107": {
+      "src": "assets/portfolio/work-107.webp",
+      "source": "pasted-image-11117.png",
+      "width": 1630,
+      "height": 916,
+      "crop": [
+        0,
+        0,
+        1630,
+        916
+      ]
+    },
+    "111": {
+      "src": "assets/portfolio/work-111.webp",
+      "source": "pasted-image-11446.png",
+      "width": 1122,
+      "height": 1120,
+      "crop": [
+        0,
+        0,
+        1122,
+        1120
+      ]
+    },
+    "38": {
+      "src": "assets/portfolio/work-038.webp",
+      "source": "3-10862.JPG",
+      "width": 2048,
+      "height": 1152,
+      "crop": [
+        0,
+        0,
+        2048,
+        1152
+      ]
+    }
   }
-]
+}
