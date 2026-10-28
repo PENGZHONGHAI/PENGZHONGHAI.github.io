@@ -1,0 +1,58 @@
+/* Shared reading rhythm. Keep book artwork and quoted source text intact. */
+html{line-break:strict;-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{word-break:normal;overflow-wrap:normal}
+h1,h2,h3,h4{line-height:1.45;word-break:normal;overflow-wrap:normal;white-space:normal;text-align:start}
+p{line-height:1.95}
+main :is(section,article,div){min-width:0}
+main :is(.intro,.lead,.section-intro,.hero-note,.story p,.skill p,.project p,.design-project p,.row p,.entry p,.publication-intro,.journey-intro>p,.book-origin-text>p,.book-intro){text-align:justify;text-justify:inter-character;letter-spacing:normal}
+html[lang=en] main :is(.intro,.lead,.section-intro,.hero-note,.story p,.skill p,.project p,.design-project p,.row p,.entry p,.publication-intro,.journey-intro>p,.book-origin-text>p,.book-intro){text-align:start;text-justify:auto;hyphens:none}
+html[lang=ja] body{font-family:Arial,"Hiragino Kaku Gothic ProN","Yu Gothic",Meiryo,sans-serif}
+html[lang=zh-CN] body{font-family:Arial,"PingFang SC","Microsoft YaHei",sans-serif}
+.section-head{align-items:start}.section-head h2{line-height:1.5}.section-intro{line-height:1.95}
+.story h3,.skill h3,.project h3,.design-project h3{line-height:1.5}
+.story article,.skill,.card{display:flex;flex-direction:column}
+.story h3,.skill h3{margin-top:20px}.card h3{margin:22px 0 10px;line-height:1.5}.card-arrow{margin-top:auto;padding-top:20px}
+.project-book-title{display:block;font-size:.85em;margin-top:5px}
+.row,.entry{align-items:start}.row h3,.entry h3{line-height:1.65}.row time,.entry .year{line-height:1.8;font-variant-numeric:tabular-nums}
+.header-links nav a{white-space:nowrap;letter-spacing:normal}
+
+
+.hero-copy h1{line-height:1.04;overflow-wrap:normal}.hero-copy .intro{max-width:480px}.hero-copy .motto{max-width:480px}.hero-copy .motto p{font-size:clamp(19px,1.65vw,22px);line-height:1.7;letter-spacing:.025em}.role{line-height:1.85}
+html[lang=ja] .hero-copy .intro{font-size:18px}html[lang=en] .hero-copy .intro{font-size:18px}
+.journey-facts,.book-hero-meta,.book-sections,.book-actions{flex-wrap:wrap}.journey-facts{row-gap:12px}.journey-facts>span{white-space:nowrap}
+.book-section-label h2{line-height:1.6}.book-hero h1{line-height:1.1}.book-tagline{line-height:1.65}
+@media(min-width:781px){.story h3,.skill h3{min-height:3em}.design-project h3{min-height:3em}}
+@media(max-width:900px) and (min-width:701px){.site-header nav{gap:22px}}
+@media(max-width:780px){.section-head{grid-template-columns:1fr!important;gap:12px}.story h3,.skill h3{min-height:0}.hero-copy .intro{max-width:none}.hero-copy h1{font-size:clamp(38px,10.5vw,70px)!important}.hero-copy .motto{max-width:none}.home-portrait img{transform:scale(1.48)}.row,.entry{gap:8px}.book-sections{gap:15px}.journey-facts{justify-content:flex-start;gap:12px 24px}.design-projects-list .design-project h3{min-height:0}}
+@media(max-width:500px){.home-portrait img{transform:scale(1.48)}.home-portrait{height:440px}.hero-copy .motto p{font-size:19px}.hero-copy .intro,html[lang=ja] .hero-copy .intro,html[lang=en] .hero-copy .intro{font-size:16px}.section-title{line-height:1.5}.section-head .view-all{white-space:normal;flex-shrink:0}.journey-hero h1{font-size:clamp(30px,9vw,40px)!important}.design-hero h1,.publication-hero h1{font-size:clamp(30px,9vw,39px)!important}.journey-video strong{line-height:1.8}.book-ending-links{flex-wrap:wrap}}
+/* Phrase-aware Japanese wrapping avoids isolated kana and split section labels. */
+@supports(word-break:auto-phrase){html[lang=ja] main :is(h1,h2,h3,h4,p,.intro,.lead,.role,.hero-note,.section-intro){word-break:auto-phrase}}
+@media(min-width:781px){html[lang=ja] .section-head{grid-template-columns:260px minmax(0,1fr)}html[lang=ja] .section-head h2{font-size:26px}}
+/* Portrait: a balanced crop with the original forest texture. */
+.home-portrait{isolation:isolate;background:#263e2d;min-height:430px;height:520px;width:100%;max-width:500px;justify-self:end}
+.home-portrait img{position:absolute;inset:0;width:100%;height:100%;max-width:none;object-fit:cover;transform:scale(1.48);transform-origin:0% 100%;object-position:36% 100%}
+.home-portrait::after{display:none}
+@media(max-width:850px){.home-portrait{height:490px;max-height:none;min-height:0;max-width:560px;justify-self:center}}
+@media(max-width:500px){.home-portrait{height:440px}.home-portrait img{transform:scale(1.42);transform-origin:8% 100%;object-position:36% 100%}}
+/* V3: language-aware reading rhythm and compact content navigation. */
+html[lang=ja] main :is(.intro,.lead,.section-intro,.hero-note,.story p,.skill p,.project p,.design-project p,.row p,.entry p,.publication-intro,.journey-intro>p,.book-origin-text>p,.book-intro){text-align:start;text-justify:auto;word-break:auto-phrase}
+.works-hero{grid-template-columns:1fr}.about-skills>summary{font-size:24px;cursor:pointer;line-height:1.7;margin-bottom:24px}.about-skills .skills{margin-top:20px}.about-skills:not([open]){padding-bottom:0}
+.archive-footer{border-top:1px solid #cbd2c7;padding:22px 6%;display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;font-size:12px;color:#596d56}
+main :is(.meta,.book-eyebrow,.journey-eyebrow,.book-section-label>span,.design-section-heading>span,.design-work figcaption,.portfolio-gallery figcaption,.fragment-attribution){color:#5c7055}
+.month-archive-place>summary{font-size:19px;cursor:pointer;padding:9px 0;line-height:1.7}.month-archive-place[open]>summary{margin-bottom:15px}.month-archive-place{padding:14px 0}.archive-count{font-size:12px;color:#596d56}
+.fragment-tabs button[hidden]{display:none}button,.primary-link{touch-action:manipulation}
+@media(max-width:700px){#back-world{min-height:44px}.country-place .pref-dates{font-size:11px}.about-skills>summary{font-size:22px}.archive-footer{padding:20px 18px}}
+.travel-projects-list .meta,.design-project small,.book-spread figcaption,.film-frame figcaption,.journey-frame figcaption{color:#5c7055}.route-date{fill:#5c7055}
+
+/* Section labels have a full row, avoiding narrow-column orphan lines. */
+.section-head,html[lang=ja] .section-head{grid-template-columns:minmax(0,1fr);gap:12px}
+.section-head h2{max-width:none;text-wrap:pretty;letter-spacing:normal}
+.section-head .section-intro{max-width:800px}
+.named-works{display:flex;flex-wrap:wrap;gap:8px 24px;margin-bottom:8px!important}
+.named-works a,.entry h3 a{border-bottom:1px solid #a3b392}
+.travel-projects-list .project.featured{grid-column:1/-1;border-left:3px solid #d1b24a}
+.travel-projects-list .project.featured h3{font-size:clamp(26px,3vw,36px);margin-top:16px}
+
+.travel-summary{max-width:none!important;text-wrap:pretty}
+.project-responsibility{font-size:13px;line-height:1.85;color:#526b55;margin:10px 0 16px!important}
+.project-credit{padding:0 24px;max-width:1200px;margin:24px auto!important}

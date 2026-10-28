@@ -1,0 +1,10 @@
+(() => {
+ const data=window.PZ_JOURNEY_MEDIA||[],dialog=document.getElementById('journey-lightbox');if(!dialog)return;let index=0,focus,oldOverflow;
+ const lang=window.PZ_I18N?.lang||'zh';
+ const title=document.querySelector('h1')?.textContent||'';document.querySelectorAll('[data-media]').forEach(b=>{b.setAttribute('aria-label',(lang==='en'?'Enlarge image ':lang==='ja'?'写真を拡大 ':'放大查看影像 ')+b.dataset.media);b.querySelector('img').alt=title+' · '+b.dataset.media;});
+ function update(){const m=data[index],height=m.height-m.top-m.bottom;const frame=document.getElementById('journey-lightbox-window');frame.style.setProperty('--media-ratio',m.width+'/'+height);frame.style.setProperty('--media-height',100*m.height/height+'%');frame.style.setProperty('--media-top',-100*m.top/height+'%');frame.classList.toggle('is-portrait',height>m.width);const img=document.getElementById('journey-full-image');img.src=m.file;img.alt=(lang==='en'?'Journey image ':lang==='ja'?'旅の写真 ':'旅途影像 ')+(index+1);document.getElementById('journey-image-count').textContent=String(index+1).padStart(2,'0')+' / '+data.length;document.getElementById('journey-prev').disabled=index===0;document.getElementById('journey-next').disabled=index===data.length-1;}
+ document.querySelectorAll('[data-media]').forEach(b=>b.addEventListener('click',()=>{index=Number(b.dataset.media)-1;focus=b;oldOverflow=document.body.style.overflow;update();dialog.showModal();document.body.style.overflow='hidden';}));
+ document.getElementById('journey-close').onclick=()=>dialog.close();dialog.addEventListener('close',()=>{document.body.style.overflow=oldOverflow||'';focus?.focus({preventScroll:true});});
+ document.getElementById('journey-prev').onclick=()=>{if(index>0){index--;update();}};document.getElementById('journey-next').onclick=()=>{if(index<data.length-1){index++;update();}};
+ dialog.addEventListener('keydown',e=>{if(e.key==='ArrowRight'&&index<data.length-1){index++;update();}if(e.key==='ArrowLeft'&&index>0){index--;update();}});
+})();

@@ -1,0 +1,200 @@
+[
+  {
+    "id": "my-world",
+    "title": [
+      "我的世界",
+      "僕の世界",
+      "僕の世界 / My World"
+    ],
+    "category": "EXPERIMENTAL FILM / 2022",
+    "intro": [
+      "负责导演、剧本与剪辑。",
+      "監督・脚本・編集を担当。",
+      "Direction, screenplay and editing."
+    ],
+    "images": [
+      223,
+      218,
+      217,
+      225,
+      227,
+      229,
+      70,
+      4,
+      39,
+      48,
+      50,
+      185,
+      187,
+      191,
+      193,
+      196
+    ],
+    "film": true,
+    "facts": [
+      "2022 · 15分钟 · 实验影像",
+      "2022 · 15分 · 実験映像",
+      "2022 · 15 minutes · Experimental film"
+    ]
+  },
+  {
+    "id": "flower-in-tokyo",
+    "title": [
+      "东京之花",
+      "FLOWER IN TOKYO",
+      "FLOWER IN TOKYO"
+    ],
+    "category": "SHORT FILM / 2022",
+    "intro": [
+      "负责导演、剧本与剪辑。",
+      "監督・脚本・編集を担当。",
+      "Direction, screenplay and editing."
+    ],
+    "images": [
+      27,
+      9,
+      11,
+      13,
+      15,
+      17,
+      19,
+      21,
+      23,
+      25,
+      113,
+      114,
+      115
+    ],
+    "film": true,
+    "facts": [
+      "2022 · 15分钟 · 短片",
+      "2022 · 15分 · 短編映画",
+      "2022 · 15 minutes · Short film"
+    ]
+  },
+  {
+    "id": "pink-snow",
+    "title": [
+      "ピンクスノー",
+      "ピンクスノー",
+      "ピンクスノー / Pink Snow"
+    ],
+    "category": "PHOTOGRAPHY / SERIES",
+    "intro": [
+      "雪地与建筑，组成一组粉色的风景。保留作品集中的三张原作。",
+      "雪景色と建物を、ピンク色の風景として捉えた3点の写真シリーズ。",
+      "A three-image series of snow and architecture in pink."
+    ],
+    "images": [
+      62,
+      64,
+      68
+    ],
+    "film": false,
+    "facts": [
+      "摄影系列 · 3幅作品",
+      "写真シリーズ · 3点",
+      "Photography series · 3 images"
+    ]
+  },
+  {
+    "id": "city-observations",
+    "title": [
+      "城市与构造",
+      "街と構造",
+      "Cities and Structures"
+    ],
+    "category": "PHOTOGRAPHY / SELECTED WORKS",
+    "intro": [
+      "汇集《Doomsday》《双》《病院タワー》《鏡の二重露光》与《航空機》，保留各幅原题。",
+      "「Doomsday」「双」「病院タワー」「鏡の二重露光」「航空機」を収録。各作品の原題を残しています。",
+      "Selected photographs from Doomsday, 双, 病院タワー, 鏡の二重露光 and 航空機, retaining the original titles."
+    ],
+    "images": [
+      30,
+      34,
+      32,
+      58,
+      46,
+      28,
+      72,
+      60,
+      78,
+      80,
+      84
+    ],
+    "captions": [
+      "Doomsday",
+      "Doomsday",
+      "Doomsday",
+      "双",
+      "双",
+      "双",
+      "病院タワー",
+      "鏡の二重露光",
+      "航空機",
+      "航空機",
+      "航空機"
+    ],
+    "film": false,
+    "facts": [
+      "摄影选集 · 5组原作",
+      "写真選集 · 5作品",
+      "Selected photography · 5 works"
+    ]
+  },
+  {
+    "id": "light-and-moments",
+    "title": [
+      "光与片刻",
+      "光とひととき",
+      "Light and Moments"
+    ],
+    "category": "PHOTOGRAPHY / SELECTED WORKS",
+    "intro": [
+      "光线、倒影与偶然相遇的片刻。收录《光るたま》《光る廃墟》《Dancer》等作品，原题保留。",
+      "光、反射、偶然の出会い。「光るたま」「光る廃墟」「Dancer」などを原題のまま掲載。",
+      "Light, reflections and passing encounters. Includes 光るたま, 光る廃墟 and Dancer, with their original titles."
+    ],
+    "images": [
+      2,
+      66,
+      42,
+      44,
+      36,
+      6,
+      82,
+      86,
+      0,
+      109,
+      110,
+      108,
+      107,
+      111,
+      38
+    ],
+    "captions": [
+      "光るたま",
+      "光るたま",
+      "光るたま",
+      "光るたま",
+      "光る廃墟",
+      "Dancer",
+      "かげ",
+      "かげ",
+      "かげ",
+      "目覚め",
+      "目覚め",
+      "Present Love",
+      "Waiting",
+      "光る電車",
+      "Mt. Fuji"
+    ],
+    "film": false,
+    "facts": [
+      "摄影选集 · 9组原作",
+      "写真選集 · 9作品",
+      "Selected photography · 9 works"
+    ]
+  }
+]

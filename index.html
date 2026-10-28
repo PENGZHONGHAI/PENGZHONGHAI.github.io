@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f5f4ee">
+<title>PENGZHONGHAI — 经历与创作</title>
+<style>
+:root {
+  --paper: #f5f4ee;
+  --ink: #193e2c;
+  --muted: #68756a;
+  --line: #cbd2c7;
+  --accent: #477b52;
+  --white: #fffef9;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0; background: var(--paper); color: var(--ink);
+  font-family: "Helvetica Neue", "Noto Sans SC", "Microsoft YaHei", sans-serif;
+  font-weight: 400; line-height: 1.6;
+}
+a { color: inherit; text-decoration: none; }
+.site-header {
+  height: 86px; padding: 0 5.2%; display: flex; align-items: center;
+  justify-content: space-between; gap: 28px; border-bottom: 1px solid rgba(25,62,44,.12);
+}
+.brand { font-size: 15px; letter-spacing: .16em; font-weight: 600; white-space: nowrap; }
+nav { display: flex; gap: clamp(20px, 4vw, 56px); font-size: 13px; color: #45594a; }
+nav a { padding: 8px 0; position: relative; }
+nav a::after { content: ""; position: absolute; height: 2px; width: 0; left: 0; bottom: 0; background: var(--accent); transition: width .18s ease; }
+nav a:hover::after, nav a:focus-visible::after { width: 100%; }
+.header-motto { font-family: Georgia, serif; font-size: 12px; letter-spacing: .08em; white-space: nowrap; }
+.hero {
+  min-height: 570px; padding: 58px 5.2% 64px; display: grid;
+  grid-template-columns: 1fr 1fr; align-items: center; gap: clamp(32px, 5vw, 76px);
+}
+.hero-copy { padding: 10px 0 24px; }
+.eyebrow { display: flex; align-items: center; gap: 14px; font-size: 13px; letter-spacing: .12em; color: var(--muted); margin-bottom: 18px; }
+.eyebrow::after { content: ""; width: 52px; height: 1px; background: #8d9b8e; }
+h1 {
+  font-family: Georgia, "Times New Roman", serif; font-weight: 400;
+  font-size: clamp(42px, 5.8vw, 82px); letter-spacing: -.045em;
+  line-height: .98; margin: 0 0 25px; overflow-wrap: anywhere;
+}
+.role { font-size: 15px; letter-spacing: .025em; margin-bottom: 23px; }
+.intro { font-size: clamp(16px, 1.5vw, 19px); line-height: 1.9; max-width: 390px; margin: 0; color: #4d5e50; }
+.motto { margin-top: 35px; padding-top: 18px; border-top: 1px solid var(--line); max-width: 320px; }
+.motto small { display: block; font-size: 10px; letter-spacing: .2em; color: var(--muted); margin-bottom: 7px; }
+.motto p { margin: 0; font-family: "Songti SC", "Noto Serif SC", Georgia, serif; font-size: 22px; letter-spacing: .07em; }
+.primary-link { display: inline-flex; align-items: center; gap: 18px; margin-top: 34px; padding: 11px 0; font-size: 13px; border-bottom: 1px solid var(--accent); }
+.primary-link span { font-size: 20px; transition: transform .18s ease; }
+.primary-link:hover span { transform: translateX(4px); }
+.hero-visual {
+  min-height: 430px; height: min(45vw, 480px); position: relative; overflow: hidden;
+  background: #dce3d7; display: flex; align-items: center; justify-content: center;
+}
+.visual-shape { position: absolute; inset: 0; background:
+  radial-gradient(ellipse at 70% 25%, rgba(255,255,255,.72), transparent 32%),
+  linear-gradient(135deg, #dce4d8 0%, #b6c8b4 48%, #7e9c83 100%); }
+.visual-shape::before {
+  content: ""; position: absolute; width: 68%; height: 68%; border: 1px solid rgba(25,62,44,.26);
+  border-radius: 50%; right: -10%; top: 4%;
+}
+.visual-shape::after {
+  content: ""; position: absolute; width: 55%; height: 55%; border: 1px solid rgba(25,62,44,.25);
+  border-radius: 50%; right: -2%; top: 11%;
+}
+.placeholder {
+  position: relative; z-index: 1; text-align: center; padding: 28px; color: #284b35;
+}
+.placeholder-mark { font-family: Georgia, serif; font-size: clamp(60px, 9vw, 112px); line-height: 1; opacity: .82; }
+.placeholder-label { margin-top: 16px; font-size: 11px; letter-spacing: .2em; }
+.visual-caption { position: absolute; z-index: 2; bottom: 20px; left: 22px; right: 22px; display: flex; justify-content: space-between; gap: 12px; font-size: 9px; letter-spacing: .14em; color: #294a35; }
+.explore { padding: 56px 5.2% 74px; background: #e8ece3; }
+.section-head { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 26px; }
+.section-title { margin: 0; font-family: "Songti SC", "Noto Serif SC", Georgia, serif; font-size: 30px; font-weight: 400; letter-spacing: .08em; }
+.section-subtitle { margin: 5px 0 0; color: var(--muted); font-size: 13px; }
+.view-all { font-size: 12px; white-space: nowrap; padding-bottom: 5px; border-bottom: 1px solid #8a9c8b; }
+.cards { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 14px; }
+.card { min-height: 205px; background: var(--white); border: 1px solid rgba(25,62,44,.12); padding: 24px 21px 19px; display: flex; flex-direction: column; transition: transform .18s ease, border-color .18s ease; }
+.card:hover { transform: translateY(-3px); border-color: #91a895; }
+.card-number { font-family: Georgia, serif; font-size: 12px; color: #829184; letter-spacing: .1em; }
+.card h3 { font-family: Georgia, "Songti SC", serif; font-weight: 400; font-size: 22px; margin: auto 0 5px; }
+.card p { color: var(--muted); font-size: 12px; margin: 0; line-height: 1.8; }
+.card-arrow { margin-top: 18px; align-self: flex-end; font-size: 19px; }
+.lower { padding: 48px 5.2% 54px; display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 36px; }
+.lower section + section { border-left: 1px solid var(--line); padding-left: 34px; }
+.lower h2 { margin: 0 0 15px; font-size: 12px; font-weight: 500; letter-spacing: .13em; color: var(--muted); }
+.lower p { margin: 0; font-size: 14px; line-height: 1.9; }
+.lower .big-quote { font-family: "Songti SC", "Noto Serif SC", Georgia, serif; font-size: 23px; line-height: 1.6; }
+footer { border-top: 1px solid var(--line); padding: 20px 5.2%; display: flex; justify-content: space-between; gap: 20px; color: var(--muted); font-size: 10px; letter-spacing: .08em; }
+@media (max-width: 850px) {
+  .site-header { padding: 0 5%; height: auto; min-height: 76px; flex-wrap: wrap; padding-top: 18px; padding-bottom: 15px; }
+  nav { order: 3; width: 100%; justify-content: space-between; gap: 12px; }
+  .header-motto { font-size: 10px; }
+  .hero { grid-template-columns: 1fr; padding-top: 44px; gap: 28px; }
+  .hero-visual { min-height: 300px; height: 58vw; max-height: 430px; }
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .lower { grid-template-columns: 1fr; gap: 26px; }
+  .lower section + section { border-left: 0; border-top: 1px solid var(--line); padding: 24px 0 0; }
+}
+@media (max-width: 480px) {
+  body { overflow-x: hidden; -webkit-text-size-adjust: 100%; }
+  .site-header { min-height: 64px; padding: 14px 18px; flex-wrap: nowrap; gap: 10px; }
+  .brand { font-size: 11px; letter-spacing: .11em; }
+  nav { order: initial; width: auto; margin-left: auto; justify-content: flex-end; gap: 12px; font-size: 11px; white-space: nowrap; }
+  .header-motto { display: none; }
+  .hero { min-height: auto; padding: 36px 18px 44px; gap: 26px; }
+  h1 { font-size: 48px; }
+  .role { font-size: 13px; line-height: 1.7; }
+  .intro { font-size: 15px; line-height: 1.8; }
+  .motto { margin-top: 26px; }
+  .hero-visual { min-height: 240px; height: 68vw; }
+  .explore { padding: 40px 18px 48px; }
+  .section-head { align-items: start; }
+  .cards { grid-template-columns: 1fr; }
+  .card { min-height: 150px; padding: 21px 19px 17px; }
+  .section-title { font-size: 27px; }
+  .lower { padding: 36px 18px; }
+  footer { padding: 18px; flex-direction: column; gap: 6px; }
+}
+@media (max-width: 370px) { .site-header{padding-left:13px;padding-right:13px}.brand{font-size:10px}nav{gap:9px;font-size:10px}.hero,.explore,.lower{padding-left:15px;padding-right:15px} }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  *, *::before, *::after { transition-duration: .01ms !important; }
+}
+</style>
+<link rel="stylesheet" href="languages.css"><script src="translations.js" defer></script><script src="editorial-translations.js" defer></script><script src="revision-translations.js" defer></script><script src="languages.js" defer></script><link rel="stylesheet" href="site-shell.css"><script src="site-shell.js" defer></script><link rel="stylesheet" href="typography.css"><meta name="description" content="PENG ZHONGHAI的个人档案：经历、旅行、摄影、设计与思考。"><meta property="og:title" content="PENGZHONGHAI — 经历与创作"><meta property="og:type" content="website"><meta property="og:image" content="https://pengzhonghai.github.io/assets/profile/forest-portrait.webp"><meta property="og:description" content="PENG ZHONGHAI的个人档案：经历、旅行、摄影、设计与思考。"></head>
+<body>
+<header class="site-header"><span class="brand">PENG ZHONGHAI</span><button class="menu-toggle" aria-expanded="false" aria-controls="primary-navigation">菜单</button><div class="header-links" id="primary-navigation"><nav aria-label="主导航"><a href="index.html" aria-current="page">主页</a><a href="about.html">关于我</a><a href="explore.html">探索</a><a href="projects.html">记录</a><a href="fragments.html">碎片</a></nav><div class="language-switch" aria-label="Language"><a href="?lang=zh" data-lang="zh" lang="zh-CN">中</a><span>/</span><a href="?lang=ja" data-lang="ja" lang="ja">日</a><span>/</span><a href="?lang=en" data-lang="en" lang="en">EN</a></div></div></header>
+
+<main>
+  <section class="hero" id="home">
+    <div class="hero-copy">
+      <div class="eyebrow">经历与创作</div>
+      <h1>PENG<br>ZHONGHAI</h1><p class="column-subtitle">一切，从这里开始</p>
+      <div class="role">职业规划 / 跨文化项目 / 旅行与影像创作</div>
+      <p class="intro">在人才、地产、文旅和艺术相关的跨文化项目之间，持续理解人的选择，也用文字与影像记录世界。</p>
+      <div class="motto">
+        
+        <p>选择权，不等于选择质量。</p>
+      </div>
+      <a class="primary-link" href="explore.html">探索更多 <span aria-hidden="true">→</span></a>
+    </div>
+    <div class="hero-visual home-portrait"><img src="assets/profile/forest-portrait.webp" alt="PENG ZHONGHAI，在树林中" fetchpriority="high" width="1365" height="2048"></div>
+  </section>
+
+  <section class="explore" id="explore">
+    <div class="section-head">
+      <div>
+        <h2 class="section-title">从这里继续</h2>
+        <p class="section-subtitle">看看我的经历、旅行和作品。</p>
+      </div>
+      <a class="view-all" href="projects.html">查看作品 →</a>
+    </div>
+    <div class="cards">
+      <a class="card" href="about.html">
+        <span class="card-number">01 / ABOUT</span>
+        <h3>关于我</h3>
+        <p>从物理与环境、人文与城市，到职业规划和跨文化项目。</p>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="card" href="explore.html">
+        <span class="card-number">02 / ATLAS</span>
+        <h3>探索世界</h3>
+        <p>日本47都道府县与多次跨国长途旅行的持续档案。</p>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="card" href="projects.html">
+        <span class="card-number">03 / WORKS</span>
+        <h3>记录</h3>
+        <p>摄影、设计、书籍与独立影像作品。</p>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+      <a class="card" href="fragments.html">
+        <span class="card-number">04 / FRAGMENTS</span>
+        <h3>碎片</h3>
+        <p>收藏触动我的话，也记录值得反复思考的瞬间。</p>
+        <span class="card-arrow" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <span>© PENG ZHONGHAI</span>
+  <span>TRAVEL / RECORD / THINK / CREATE</span>
+  <span>选择权，不等于选择质量。</span>
+</footer>
+</body>
+</html>
